@@ -1,0 +1,89 @@
+body {
+  background-color: #efeff2;
+  margin: 0;
+  color: #19191c;
+  font: 400 18px/28px Inter, sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  padding: 36px 0 0;
+  justify-content: space-between;
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+  gap: 68px;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.link {
+  color: #19191c;
+  text-decoration: none;
+}
+
+.btn-box {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: #19191c;
+  text-decoration: none;
+}
+
+.header__link {
+  color: #19191c;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header__btn {
+  background: #19191c;
+  color: #efeff2;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 12px 37px;
+  text-decoration: none;
+}
+
+.offer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer__holder {
+  width: 648px;
+}
+
+.offer__title {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: normal;
+}
+

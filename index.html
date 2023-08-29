@@ -9,37 +9,44 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style/all.css">
+    <link rel="stylesheet" href="./style/all.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <a href="index.html"><img src="./img/logo.svg" alt="logo" />UpDate</a>
-      <nav>
-        <ul>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">Teachers</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-        <a href="#">En</a>
-        <a href="#">Sign In</a>
-        <a href="#">Trial free</a>
-      </nav>
+    <header class="container header">
+      <div class="header__box">
+        <a class="logo" href="index.html"
+          ><img src="./img/logo.svg" alt="logo" />UpDate</a
+        >
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a class="link" href="#">Courses</a></li>
+            <li><a class="link" href="#">Teachers</a></li>
+            <li><a class="link" href="#">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="btn-box">
+        <a class="header__link" href="#">En</a>
+        <a class="header__link" href="#">Sign In</a>
+        <a class="header__btn" href="#">Trial free</a>
+      </div>
     </header>
 
     <main>
-      <section class="offer">
-        <h1 class="offer__title">
-          Explore thousands of hands-on creative classes.
-        </h1>
-        <p class="offer__discription">
-          Start learning for <a href="#">free</a>
-        </p>
-        <button class="button">Choose a cource</button>
+      <section class="container offer">
+        <div class="offer__holder">
+          <h1 class="offer__title">
+            Explore thousands of hands-on creative classes.
+          </h1>
+          <p class="offer__discription">
+            Start learning for <a href="#">free</a>
+          </p>
+          <button class="button">Choose a cource</button>
 
-        <p class="offer__sale">50%</p>
-        <p class="offer__time"><time>24 Days 17:44:16</time></p>
-
+          <p class="offer__sale">50%</p>
+          <p class="offer__time"><time>24 Days 17:44:16</time></p>
+        </div>
         <ul class="offer__list">
           <li><a href="#">Photographer</a></li>
           <li><a href="#">Designer</a></li>
