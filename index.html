@@ -40,7 +40,7 @@
             Explore thousands of hands-on creative classes.
           </h1>
           <p class="offer__discription">
-            Start learning for <a href="#">free</a>
+            Start learning for <a class="offer-link" href="#">free</a>
           </p>
           <button class="button">Choose a cource</button>
 
@@ -48,56 +48,73 @@
           <p class="offer__time"><time>24 Days 17:44:16</time></p>
         </div>
         <ul class="offer__list">
-          <li><a href="#">Photographer</a></li>
-          <li><a href="#">Designer</a></li>
-          <li><a href="#">Programmer</a></li>
-          <li><a href="#">Animator</a></li>
-          <li><a href="#">Illustrator</a></li>
-          <li><a href="#">Marketer</a></li>
+          <li class="offer__photographer">
+            <a class="offer__item" href="#">Photographer</a>
+          </li>
+          <li class="offer__designer">
+            <a class="offer__item" href="#">Designer</a>
+          </li>
+          <li class="offer__programmer">
+            <a class="offer__item" href="#">Programmer</a>
+          </li>
+          <li class="offer__animator">
+            <a class="offer__item" href="#">Animator</a>
+          </li>
+          <li class="offer__illustrator">
+            <a class="offer__item" href="#">Illustrator</a>
+          </li>
+          <li class="offer__marketer">
+            <a class="offer__item" href="#">Marketer</a>
+          </li>
         </ul>
       </section>
       <section class="learn">
-        <div class="learn__text">
-          <h2 class="learn__title">What you will learn</h2>
-          <p class="learn__description">
-            Up-to-date knowledge from recognized market experts for beginners
-            and practitioners
-          </p>
-          <p class="learn__description">
-            On the platform, you can gain knowledge on current topics and
-            in-demand skills. All courses are aimed at practice: we monitor the
-            relevance of the material and help with employment and internship
-          </p>
-        </div>
-        <div class="learn__counters">
-          <div class="learn__counters-item">
-            <p class="learn__counters-item">56</p>
-            <p class="learn__counters-description">Courses</p>
+        <div class="container learn__container">
+          <div class="learn__text">
+            <h2 class="learn__title">What you will learn</h2>
+            <p class="learn__description learn__description-first">
+              Up-to-date knowledge from recognized market experts for beginners
+              and practitioners
+            </p>
+            <p class="learn__description">
+              On the platform, you can gain knowledge on current topics and
+              in-demand skills. All courses are aimed at practice: we monitor
+              the relevance of the material and help with employment and
+              internship
+            </p>
           </div>
-          <div class="learn__counters-item">
-            <p class="learn__counters-item">108</p>
-            <p class="learn__counters-description">Curators</p>
-          </div>
-          <div class="learn__counters-item">
-            <p class="learn__counters-item">3 723</p>
-            <p class="learn__counters-description">Graduates</p>
+          <div class="learn__counters">
+            <div class="learn__counter">
+              <p class="learn__counters-item">56</p>
+              <p class="learn__counters-description">Courses</p>
+            </div>
+            <div class="learn__counter">
+              <p class="learn__counters-item">108</p>
+              <p class="learn__counters-description">Curators</p>
+            </div>
+            <div class="learn__counter">
+              <p class="learn__counters-item">3 723</p>
+              <p class="learn__counters-description">Graduates</p>
+            </div>
           </div>
         </div>
       </section>
-      <section class="discover">
+      <section class="container discover">
         <h2 class="discover__title">Discover Lifelong Learning</h2>
-        <ul class="discover__list">
-          <li><button class="discover__button">Popular</button></li>
-          <li><button class="discover__button">Animation</button></li>
-          <li><button class="discover__button">Design</button></li>
-          <li><button class="discover__button">Illustration</button></li>
-          <li><button class="discover__button">Programming</button></li>
-          <li><button class="discover__button">Photo & Film</button></li>
-          <li><button class="discover__button">Marketing</button></li>
-        </ul>
-        <a href="#"
-          >See more <img src="./img/arrow-right.svg" alt="arrow right"
-        /></a>
+        <div class="discover__wrapper">
+          <ul class="discover__list">
+            <li><button class="discover__button">Popular</button></li>
+            <li><button class="discover__button">Animation</button></li>
+            <li><button class="discover__button">Design</button></li>
+            <li><button class="discover__button">Illustration</button></li>
+            <li><button class="discover__button">Programming</button></li>
+            <li><button class="discover__button">Photo & Film</button></li>
+            <li><button class="discover__button">Marketing</button></li>
+          </ul>
+          <a class="arrow-right" href="#"
+            >See more <img src="./img/arrow-right.svg" alt="arrow right"
+          /></a>
+        </div>
         <div class="discover__cards">
           <article class="discover__cards-item">
             <img
@@ -128,17 +145,19 @@
         </div>
       </section>
       <section class="find-program">
-        <div class="find-program__text">
-          <h2 class="find-program__title">Can't find a suitable program?</h2>
-          <p class="find-program__description">
-            We will help you with the choice!
-          </p>
+        <div class="container find-program__container">
+          <div class="find-program__text">
+            <h2 class="find-program__title">Can't find a suitable program?</h2>
+            <p class="find-program__description">
+              We will help you with the choice!
+            </p>
+          </div>
+          <form action="https://fom.in.ua/echo" class="find-program__form">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <button class="find-program__button">Help me</button>
+          </form>
         </div>
-        <form action="https://fom.in.ua/echo" class="find-program__form">
-          <input type="text" name="name" placeholder="Name" required />
-          <input type="email" name="email" placeholder="Email" required />
-          <button class="find-program__button">Help me</button>
-        </form>
       </section>
     </main>
 
