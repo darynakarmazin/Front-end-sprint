@@ -557,3 +557,73 @@ li {
 .profession__counters-description-2 {
   color: #6d6d77;
 }
+
+.main-parts__cards {
+  display: flex;
+  gap: 20px;
+}
+
+.main-parts__cards-item {
+  padding: 68px 48px;
+}
+
+.main-parts__cards-title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 28px;
+  margin-bottom: 12px;
+  border-bottom: 4px solid #19191c;
+}
+
+.main-parts__cards-item-1 {
+  background: #deefe4;
+}
+
+.main-parts__cards-item-2 {
+  background: #f3f3d7;
+}
+
+.main-parts__cards-item-3 {
+  background: #efdeee;
+}
+
+.discover-prices {
+  padding: 171px 0 168px;
+}
+
+.discover-prices__title {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 100px;
+}
+
+.discover-prices__cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.discover-prices__cards-item {
+  padding: 48px 51px 51px 68px;
+  background: #deefe4;
+  height: 732px;
+}
+
+.discover-prices__cards-title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 47px;
+}
+
+.discover-prices__cards-item.accent {
+  background: #504dee;
+}
+
+.discover-prices__list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
