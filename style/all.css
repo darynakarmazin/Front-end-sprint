@@ -510,3 +510,50 @@ li {
   border-bottom: 4px solid #504dee;
   margin-bottom: 32px;
 }
+
+.profession {
+  padding: 168px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.profession__text {
+  width: 588px;
+}
+
+.profession__title {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+
+.profession__description {
+  color: #6d6d77;
+}
+
+.profession__counters {
+  display: flex;
+  gap: 103px;
+}
+
+.profession__counters-number {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.profession__counters-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 21px;
+  margin-bottom: 18px;
+  width: 254px;
+  border-bottom: 4px solid #19191c;
+}
+
+.profession__counters-description-2 {
+  color: #6d6d77;
+}
