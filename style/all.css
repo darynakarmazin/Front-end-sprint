@@ -620,10 +620,33 @@ li {
 
 .discover-prices__cards-item.accent {
   background: #504dee;
+  color: #fbfbfc;
 }
 
 .discover-prices__list {
   display: flex;
   flex-direction: column;
   gap: 22px;
+}
+
+.discover-prices__cards-price {
+  color: #6d6d77;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 3px;
+}
+
+.discover-prices__cards-new-price {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 18px;
+}
+
+.discover-prices__cards-price.accent {
+  color: #efeff2;
+}
+
+.discover-prices__button {
 }
