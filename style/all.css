@@ -91,6 +91,10 @@ li {
 }
 
 .offer {
+  background-color: #efeff2;
+}
+
+.offer__contain {
   display: flex;
   justify-content: space-between;
   padding: 137px 0 230px;
@@ -492,6 +496,12 @@ li {
   position: absolute;
   top: 275px;
   right: 569px;
+}
+
+.offer__p-illustrator {
+  position: absolute;
+  top: 593px;
+  right: 687px;
 }
 
 .offer__duration {
