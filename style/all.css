@@ -1,5 +1,5 @@
 body {
-  background-color: #efeff2;
+  background-color: #fbfbfc;
   margin: 0;
   color: #19191c;
   font: 400 18px/28px Inter, sans-serif;
@@ -25,6 +25,10 @@ li {
 }
 
 .header {
+  background-color: #efeff2;
+}
+
+.header__container {
   display: flex;
   padding: 36px 0 0;
   justify-content: space-between;
@@ -466,4 +470,33 @@ li {
 .copyright a {
   color: #6d6d77;
   text-decoration: none;
+}
+
+/* couses page */
+
+.offer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 137px 0 230px;
+  background: url(../img/business-finance-employment-female-1.png) no-repeat
+      122% 100%,
+    url(../img/rectangle\ -1.png) no-repeat 88% 100%,
+    url(../img/ellipse-2.png) no-repeat 100% 50%;
+}
+
+.offer__discription-long {
+  width: 648px;
+}
+
+.offer__photoshop {
+  position: absolute;
+  top: 275px;
+  right: 569px;
+}
+
+.offer__duration {
+  font-weight: 700;
+  width: 84px;
+  border-bottom: 4px solid #504dee;
+  margin-bottom: 32px;
 }
