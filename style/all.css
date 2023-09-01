@@ -580,7 +580,7 @@ body {
 }
 
 .footer {
-  padding: 68px 0 0;
+  padding: 48px 0 0;
   background: #19191c;
 }
 
@@ -592,7 +592,9 @@ body {
 
 .footer__wraper {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: flex-start;
 }
 
 .sitemap {
@@ -658,13 +660,23 @@ body {
 .copyright a {
   color: #6d6d77;
   text-decoration: none;
+  margin-right: 28px;
 }
 
-@media screen and (min-width: 375px) {
-}
 @media screen and (min-width: 768px) {
+  .footer {
+    padding: 58px 0 0;
+  }
+
+  .footer__wraper {
+    gap: 0;
+    justify-content: space-between;
+  }
 }
 @media screen and (min-width: 1440px) {
+  .footer {
+    padding: 68px 0 0;
+  }
 }
 
 /* couses page */
