@@ -504,19 +504,16 @@ body {
 }
 
 .find-program__container {
-  padding: 168px 0;
+  padding: 44px 0;
   display: flex;
-}
-
-.find-program__text {
-  width: 50%;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .find-program__title {
-  font-size: 58px;
+  font-size: 38px;
   font-weight: 700;
   line-height: normal;
-  width: 801px;
   margin-bottom: 28px;
 }
 
@@ -525,10 +522,11 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
+  margin-bottom: 28px;
 }
 
 .find-program__form {
-  width: 50%;
+  width: 100%;
   display: flex;
   gap: 48px;
   flex-direction: column;
@@ -556,6 +554,29 @@ body {
   line-height: normal;
   padding: 16px 36px;
   width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .find-program__container {
+    padding: 88px 0;
+  }
+
+  .find-program__form {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .find-program__container {
+    padding: 168px 0;
+  }
+
+  .find-program__text {
+    width: 50%;
+  }
+
+  .find-program__title {
+    font-size: 58px;
+  }
 }
 
 .footer {
@@ -637,6 +658,13 @@ body {
 .copyright a {
   color: #6d6d77;
   text-decoration: none;
+}
+
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1440px) {
 }
 
 /* couses page */
