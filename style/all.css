@@ -305,23 +305,25 @@ body {
 
 .learn {
   background: #19191c;
-  padding: 168px 0 162px;
+  padding: 44px 0;
   color: #fbfbfc;
 }
 
 .learn__container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: start;
 }
 
 .learn__text {
   width: 588px;
+  margin-bottom: 48px;
 }
 
 .learn__title {
   color: #fbfbfc;
-  font-size: 58px;
+  font-size: 38px;
   font-weight: 700;
   line-height: normal;
   margin-bottom: 28px;
@@ -340,7 +342,9 @@ body {
 
 .learn__counters {
   display: flex;
-  gap: 86px;
+  flex-wrap: wrap;
+  column-gap: 86px;
+  row-gap: 24px;
 }
 
 .learn__counter {
@@ -363,30 +367,54 @@ body {
   margin-bottom: 22px;
 }
 
+@media screen and (min-width: 768px) {
+  .learn {
+    padding: 88px 0;
+  }
+  .learn__title {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .learn {
+    padding: 168px 0 162px;
+  }
+
+  .learn__text {
+    margin-bottom: 0;
+  }
+
+  .learn__title {
+    font-size: 58px;
+  }
+}
+
 .discover {
-  padding: 165px 0 168px;
+  padding: 44px 0;
 }
 
 .discover__title {
   color: #19191c;
-  font-size: 58px;
+  font-size: 38px;
   font-weight: 700;
   line-height: normal;
-  width: 594px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 
 .discover__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 45px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
 }
 
 .discover__list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
-  gap: 48px;
+  column-gap: 48px;
+  row-gap: 12px;
 }
 
 .discover__button {
@@ -411,7 +439,9 @@ body {
 
 .discover__cards {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 12px;
 }
 
 .discover__cards-item img {
@@ -431,6 +461,42 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .discover__title {
+    font-size: 48px;
+    margin-bottom: 35px;
+  }
+
+  .discover {
+    padding: 88px 0;
+  }
+
+  .discover__wrapper {
+    margin-bottom: 35px;
+  }
+
+  .discover__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 12px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .discover__title {
+    font-size: 58px;
+    margin-bottom: 45px;
+  }
+
+  .discover {
+    padding: 165px 0 168px;
+  }
+
+  .discover__wrapper {
+    margin-bottom: 45px;
+  }
 }
 
 .find-program {
