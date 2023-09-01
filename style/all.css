@@ -812,6 +812,9 @@ body {
   padding: 48px 51px 51px 68px;
   background: #deefe4;
   height: 732px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .discover-prices__cards-title {
@@ -852,4 +855,15 @@ body {
 }
 
 .discover-prices__button {
+  background: #19191c;
+  color: #fbfbfc;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  padding: 16px 36px;
+}
+
+.discover-prices__button.accent {
+  background: #fbfbfc;
+  color: #504dee;
 }
