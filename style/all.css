@@ -295,6 +295,7 @@ li {
 
 .discover__button {
   border: none;
+  background-color: transparent;
   color: #19191c;
   font-size: 18px;
   font-weight: 400;
